@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tables and forms</title>
+  </head>
+  <body>
+    <!-- tables -->
+    <table border="1">
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Age
+        </th>
+        <th>
+          Class
+        </th>
+        <th>
+          intrest
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Atul
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          9
+        </td>
+        <td rowspan="3">None</td>
+      </tr>
+      <tr>
+        <td>
+          Atul
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          9
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          Atul
+        </td>
+      </tr>
+    </table>
+
+    <form method="GET">
+      Name:
+      <input type="text" name="name" placeholder="enter your name" />
+      <div></div>
+      Email:<input type="email" name="email" placeholder="enter your email" />
+      <div></div>
+      Password: <input type="password" name="password" id="" />
+      <div name="Gender">
+        Gender:
+        <input type="radio" name="Gender" id="" value="male" />
+        <label for="Gender">Male</label>
+        <input type="radio" name="Gender" id="" value="female" />
+        <label for="Gender">Female</label>
+        <div>Coding:</div>
+        <div></div>
+        <input type="checkbox" name="Coding" id="" value="html" />
+        <label for="checkbox">HTML</label>
+        <div></div>
+        <input type="checkbox" name="Coding" id="" value="css" />
+        <label for="checkbox">CSS</label>
+        <div></div>
+        <input type="checkbox" name="Coding" id="" value="javascript" />
+        <label for="checkbox">JavaScript</label>
+        <div></div>
+        <input type="checkbox" name="Coding" id="" value="reactjs" />
+        <label for="checkbox">REactJS</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <!-- forms -->
+  </body>
+</html>
